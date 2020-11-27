@@ -7,13 +7,14 @@
 var command       = require('commander'),
     dox           = require('../lib/default');
 
+var projectHomePath       = path.resolve('.');
 command.parse(process.argv);
 
 var cmd = command.args[0];                                                           // 命令参数，如 build
 
 switch (cmd) {
     case 'build':
-        dox();
+        dox(projectHomePath);
         break;
     default:
         console.error('\n\t提示：不能找到命令 ' + cmd + ' !');
