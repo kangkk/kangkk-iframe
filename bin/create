@@ -1,0 +1,36 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var command       = require('commander'),
+    path          = require('path'),
+    _             = require('underscore'),
+    underscoreStr = require('underscore.string'),
+    chalk         = require('chalk'),
+    mkdirp        = require('mkdirp'),
+    fs            = require('fs'),
+    merge         = require('../lib/merge'),
+    dox           = require('../lib/default');
+
+merge(_, {str: underscoreStr});
+
+var projectHomePath       = path.resolve('.'),
+    COMMANDLIST           = ['build'];  // 定义命令列表
+
+loadConfigFiled.projectHomePath = projectHomePath;
+
+command.parse(process.argv);
+
+var cmd = command.args[0];                                                           // 命令参数，如 build
+
+switch (cmd) {
+    case 'build':
+        dox();
+        break;
+    default:
+        console.error('\n\t提示：不能找到命令 ' + cmd + ' !');
+}
+
+process.exit(0);
