@@ -5,21 +5,8 @@
  */
 
 var command       = require('commander'),
-    path          = require('path'),
-    _             = require('underscore'),
-    underscoreStr = require('underscore.string'),
-    chalk         = require('chalk'),
-    mkdirp        = require('mkdirp'),
-    fs            = require('fs'),
-    merge         = require('../lib/merge'),
     dox           = require('../lib/default');
 
-merge(_, {str: underscoreStr});
-
-var projectHomePath       = path.resolve('.'),
-    COMMANDLIST           = ['build'];  // 定义命令列表
-
-loadConfigFiled.projectHomePath = projectHomePath;
 
 command.parse(process.argv);
 
