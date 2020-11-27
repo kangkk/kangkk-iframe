@@ -1,19 +1,48 @@
 {
-  "name": "kangkk-iframe",
-  "version": "0.0.1",
-  "description": "Generate iframe embed to html.",
-  "main": "index.js",
+  "_from": "kangkk-iframe",
+  "_id": "kangkk-iframe@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-iLPQM54SPPOA8DFKRnS4rQyiL6l5K83J0YMTtLVlskf4TVxKfdLQFqDsBnZvbwHS0zY5Xx/CPoDzOSeQypg6FA==",
+  "_location": "/kangkk-iframe",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "kangkk-iframe",
+    "name": "kangkk-iframe",
+    "escapedName": "kangkk-iframe",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/kangkk-iframe/-/kangkk-iframe-0.0.1.tgz",
+  "_shasum": "ff36cea0db20c76f0b0e3c868e61d763821e4ece",
+  "_spec": "kangkk-iframe",
+  "_where": "/mnt/c/Users/kangkk/Downloads/particles-js-snow",
+  "author": {
+    "name": "KAHN1990"
+  },
   "bin": {
     "create": "bin/create"
   },
-  "keywords": [
-    "documentation",
-    "iframe"
+  "bugs": {
+    "url": " http://registry.npmjs.org/kangkk-iframe/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "kangkk",
+      "email": "365@kangkk.com",
+      "url": "https://github.com/kangkk"
+    }
   ],
   "dependencies": {
-    "commander": "*",
-    "path": "^0.12.7",
     "async": "^3.2.0",
+    "commander": "*",
     "ejs": "^3.1.5",
     "highlight.js": "^10.4.0",
     "mkdirp": "^1.0.4",
@@ -21,20 +50,22 @@
     "path": "^0.12.7",
     "underscore": "^1.12.0"
   },
+  "deprecated": false,
+  "description": "Generate iframe embed to html.",
   "devDependencies": {
     "expect.js": "*",
     "mocha": "*"
   },
-  "author": "KAHN1990",
-  "contributors": [
-    "kangkk <365@kangkk.com> (https://github.com/kangkk)"
+  "keywords": [
+    "documentation",
+    "iframe"
   ],
   "license": "MIT",
+  "main": "index.js",
+  "name": "kangkk-iframe",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kahn1990/jsdoc-zero"
+    "url": " http://registry.npmjs.org/kangkk-iframe"
   },
-  "bugs": {
-    "url": "https://github.com/kahn1990/jsdoc-zero/issues"
-  }
+  "version": "0.0.1"
 }
