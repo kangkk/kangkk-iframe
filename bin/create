@@ -5,6 +5,7 @@
  */
 
 var command       = require('commander'),
+    path = require('path'),
     dox           = require('../lib/default');
 
 var projectHomePath       = path.resolve('.');
