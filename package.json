@@ -4,7 +4,7 @@
   "description": "Generate iframe embed to html.",
   "main": "index.js",
   "bin": {
-    "create": "bin/create"
+    "iframe": "bin/iframe"
   },
   "keywords": [
     "documentation",
@@ -18,7 +18,6 @@
     "highlight.js": "^10.4.0",
     "mkdirp": "^1.0.4",
     "moment": "^2.29.1",
-    "path": "^0.12.7",
     "underscore": "^1.12.0"
   },
   "devDependencies": {

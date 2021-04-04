@@ -1,0 +1,19 @@
+.test-red{
+    margin-bottom: 40px;
+    width: 100%;
+    height: 40px;
+    background: red;
+    padding: 40px;
+}
+.test-green{
+    position: fixed;
+    width: 100%;
+    background: green;
+}
+.test-green-child{
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+    background: black;
+    padding: 40px;
+}

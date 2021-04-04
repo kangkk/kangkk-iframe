@@ -4,18 +4,23 @@
  * Module dependencies.
  */
 
-var command       = require('commander'),
+var command = require('commander'),
     path = require('path'),
-    dox           = require('../lib/default');
+    build = require('../lib/build'),
+    create = require('../lib/create');
 
-var projectHomePath       = path.resolve('.');
+
+var projectHomePath = path.resolve('.');
 command.parse(process.argv);
 
 var cmd = command.args[0];                                                           // 命令参数，如 build
 
 switch (cmd) {
     case 'build':
-        dox(projectHomePath);
+        build(projectHomePath);
+    break;
+    case 'create':
+        create(projectHomePath);
         break;
     default:
         console.error('\n\t提示：不能找到命令 ' + cmd + ' !');

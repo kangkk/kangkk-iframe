@@ -1,1 +1,3 @@
-module.exports = require('./lib/default.js');
+module.exports = require('./lib/build.js');
+module.exports = require('./lib/create.js');
+
